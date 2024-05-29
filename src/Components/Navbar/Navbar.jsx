@@ -3,12 +3,18 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='nav'>
-          <div className='nav-logo'>yerrr</div>
+          <div className='nav-logo'>Music Share</div>
           <ul className='nav-menu'>
-              <li>Home</li>
-              <li>Explore</li>
-              <li>About</li>
-              <li className='nav-contact'>Contact</li>
+              <li>
+                <a href='/'>Home</a>
+              </li>
+              <li>
+                <a href='/'>Explore</a>
+              </li>
+               <li>
+                <a href='/'>About</a>
+              </li>
+              <li className='nav-contact'>Login</li>
           </ul>
     </div>
   )

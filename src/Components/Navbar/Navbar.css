@@ -27,3 +27,8 @@
     color: #262626;
 
 }
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
